@@ -1,0 +1,11 @@
+export 'package:flutter_project_boilerplate/res/widgets/app_bars.dart';
+export 'package:flutter_project_boilerplate/res/widgets/button.dart';
+export 'package:flutter_project_boilerplate/res/widgets/circle_avatar.dart';
+export 'package:flutter_project_boilerplate/res/widgets/decoration.dart';
+export 'package:flutter_project_boilerplate/res/widgets/divider_widget.dart';
+export 'package:flutter_project_boilerplate/res/widgets/field_and_label.dart';
+export 'package:flutter_project_boilerplate/res/widgets/icon_widget.dart';
+export 'package:flutter_project_boilerplate/res/widgets/list_tile.dart';
+export 'package:flutter_project_boilerplate/res/widgets/padding_margin.dart';
+export 'package:flutter_project_boilerplate/res/widgets/spaces.dart';
+export 'package:flutter_project_boilerplate/res/widgets/text_styles.dart';
