@@ -1,6 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_project_boilerplate/res/routes/route_name.dart';
 import 'package:flutter_project_boilerplate/res/widgets/widget_export.dart';
 import 'package:flutter_project_boilerplate/utils/screen_utils.dart';
 
@@ -17,7 +18,9 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   void initState() {
     super.initState();
-    Timer(const Duration(seconds: 2), () {});
+    Timer(const Duration(seconds: 2), () {
+      Navigator.pushNamedAndRemoveUntil(context, RouteName.homeScreen, (route) => false);
+    });
   }
 
   @override

@@ -1,5 +1,6 @@
 import 'package:flutter_project_boilerplate/res/routes/route_name.dart';
 import 'package:flutter_project_boilerplate/res/widgets/text_styles.dart';
+import 'package:flutter_project_boilerplate/view/home_screen/home_screen.dart';
 import 'package:flutter_project_boilerplate/view/splash_screen/splash_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -8,6 +9,8 @@ class AppRoute {
     switch (settings.name) {
       case RouteName.splashScreen:
         return MaterialPageRoute(builder: (context) => const SplashScreen());
+      case RouteName.homeScreen:
+        return MaterialPageRoute(builder: (context) => const HomeScreen());
       default:
         return MaterialPageRoute(
           builder: (context) => Scaffold(
